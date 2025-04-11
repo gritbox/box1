@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-900 dark:bg-zinc-900 dark:text-white;
+}
+
+.prose {
+  @apply dark:prose-invert;
+}

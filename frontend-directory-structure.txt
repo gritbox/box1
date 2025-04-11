@@ -1,0 +1,35 @@
+/gritbox-fe
+├── public/
+│   ├── images/
+│   └── freebies/
+├── content/
+│   ├── blog/
+│   │   ├── my-first-post/
+│   │   │   ├── index.mdx
+│   │   │   ├── metadata.json      # optional
+│   │   │   └── cover.jpg
+│   │   └── art-systems/
+│   │       └── index.mdx
+│   ├── projects/
+│   │   └── ambient-networks/
+│   │       ├── index.mdx
+│   │       └── preview.gif
+│   └── freebies/
+│       └── ios-shortcut.mdx
+├── components/
+│   ├── Layout.tsx
+│   ├── BlogPost.tsx
+│   ├── MDXWrapper.tsx
+│   └── UI (optional for shadcn)
+├── pages/
+│   ├── index.tsx
+│   ├── blog/
+│   │   ├── index.tsx         # Blog listing
+│   │   └── [slug].tsx        # Dynamic MDX post rendering
+│   ├── projects.tsx
+│   └── connect.tsx
+├── styles/
+│   └── globals.css
+├── tailwind.config.js
+├── next.config.js
+└── tsconfig.json
